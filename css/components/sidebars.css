@@ -1,0 +1,90 @@
+.navleft {
+  background-color: #261c25;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  height: 100vh;
+}
+.navleft h2:first-child {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.navleft h2:last-child {
+  cursor: pointer;
+  font-size: 18px;
+  opacity: 0.3;
+}
+.navleft h2:last-child:hover {
+  opacity: 1;
+}
+.puce {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #1fe5bd;
+  margin-top: 2px;
+  margin-right: 8px;
+}
+.puce-off {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 2px;
+  margin-right: 8px;
+  opacity: .5;
+}
+.person {
+  display: flex;
+  align-items: center;
+}
+.person span {
+  opacity: 0.5;
+}
+.chatsection {
+  margin-top: 24px;
+}
+.chat-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-solid,
+.fas {
+  font-weight: 900;
+}
+.channel {
+  display: flex;
+  align-items: center;
+}
+.person span, .channel span {
+  opacity: .5;
+}
+.channel i {
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.channel.active span {
+  opacity: 1;
+}
+.navleftlist{
+  background-color: #4B3949;
+  color: white;
+  padding: 16px;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+
+.chat-section {
+    margin-top: 24px;
+}
+
+.chat-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

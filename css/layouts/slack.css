@@ -1,0 +1,42 @@
+/* TODO: slack layout */
+
+.chat-container {
+    flex-grow: 1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    border-bottom: 1px solid rgb(240,240,240);
+}
+
+
+.chat-header h1 {
+    font-size: 24px;
+}
+
+.chat-header i {
+    font-size: 20px;
+}
+
+.chat-conversations {
+    flex-grow: 1;
+    padding: 16px 0;
+    overflow: scroll;
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+}
+
+.message img {
+    width: 40px;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+.message .message-content {
+    flex-grow: 1;
+}
